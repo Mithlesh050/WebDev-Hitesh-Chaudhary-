@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Time</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+        body , html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: "Smooch Sans", sans-serif;
+        }
+        .container{
+            background: linear-gradient(135deg , #8a2be2 , #4169a1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .content{
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.4);
+            padding: 2rem;
+            max-width: 400px;
+            border-radius: 7px;
+        }
+        .logo{
+            width: 180px;
+            height: 180px;
+            border-radius: 200px;
+            object-fit: contain;
+        }
+        h1{
+            color: black;
+            margin-bottom: 25px;
+        }
+        p{
+            color: #01214e;
+        }
+        #notify-form{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+       input[type="email"]{
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        width: 250px;
+        height: 20px;
+        border: none;
+       }
+        button{
+            background-color: rgb(10, 165, 165);
+            border: none;
+            padding: 5px 40px;
+            border-radius: 3px;
+            cursor: pointer;
+            color: rgb(37, 1, 1);
+        }
+        button:hover{
+            background-color: rgb(13, 206, 206);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="./chai/chai.png" class="logo" alt="chai-logo">
+            <h1>Comming Soon...</h1>
+            <p>We're working hard to bring somthing amazing. Stay tuned!</p>
+            <form id="notify-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Notify me</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
